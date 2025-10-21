@@ -40,6 +40,9 @@ async function run(executor: IExecutor, queue: AsyncIterable<ITask>, maxThreads 
 
 `npm install`
 
+`npm i --save-dev nyc`
+`npm test`
+
 ## Самостоятельная проверка работоспособности
 
 Для удобства я написал тесты для `run()`, которые проверяют правильность её работы.
